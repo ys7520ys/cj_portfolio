@@ -1,0 +1,49 @@
+.swiperArea {
+  .swiperBlock {
+    padding-bottom: 210px;
+    white-space: pre-line;
+    overflow: hidden;
+    &__title{
+      text-align: center;
+      font-size: 50px;
+      line-height: 140%;
+      letter-spacing: -2.5%;
+      margin-bottom: 24px;
+    }
+    &__subtitle {
+      text-align: center;
+      font-size: 28px;
+      line-height: 140%;
+      letter-spacing: -2.5%;
+      font-weight: 400;
+      margin-bottom: 120px;
+      color: #767676;
+    }
+
+    /* Swiper 전체 박스 스타일 */
+  
+    .swiper__parent {
+      width: 2300px;
+      left: -200px;
+      height: auto; // 높이 조절 가능
+      border-radius: 10px; // 모서리 둥글게  
+  
+      /* 개별 슬라이드 스타일 */
+      .swiper-slide {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 32px;
+
+      }
+  
+      /* 내부 컨텐츠 스타일 */
+      .slide-content {
+        height: 330px; // Swiper 높이에 맞춤
+        width: 440px;
+      }
+    }
+  }
+}
+
+

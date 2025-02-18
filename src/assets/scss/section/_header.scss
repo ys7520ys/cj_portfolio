@@ -1,0 +1,32 @@
+.header {
+  position: relative;
+  width: 1320px;
+  height: 100px;
+  margin: 0 auto;
+  // background-color: gray;
+  &__logo {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(0%,-50%);
+  }
+  .header__nav {
+    position: absolute;
+    right: 0;
+    top: 60px;
+    &-lists {
+      display: flex;
+      justify-content: space-between;
+      width: 430px;
+      .list {
+        list-style: none;
+        &-link {
+          text-decoration: none;
+          color: #222222;
+          font-size: 18px;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+.newsNav{
+  padding-top: 100px;
+  &__titleArea {
+    height: 250px;
+    width: 100%;
+    background-color: #007aff;
+    line-height: 250px;
+    margin-bottom: 60px;
+    &-text {
+      width: 1200px;
+      margin: 0 auto;
+      font-size: 50px;
+      font-weight: 600;
+      color: white;
+    }
+  }
+  &__contents {
+    width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3, 345px);
+    row-gap: 35px;
+    column-gap: 15px;
+    padding-bottom: 60px;
+    .item {
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+      &__img {
+
+      }
+      &__text {
+        padding: 16px 24px;
+        font-size: 18px;
+
+      }
+    }
+  }
+}

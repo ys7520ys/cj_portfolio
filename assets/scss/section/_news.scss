@@ -1,0 +1,35 @@
+.section__news {
+  padding-top: 150px;
+  padding-bottom: 60px;
+  width: 1200px;
+  margin: 0 auto;
+  h1 {
+    font-size: 48px;
+    font-weight: 600;
+  }
+  .contents__boxes {
+    margin-top: 49px;
+    width: 100%;
+    display: flex;
+    gap: 24px;
+    .box {
+      width: 33.3333%;
+      height: 100%;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+      .topBox {
+        border-radius: 10px;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          border-radius: 10px 10px 0px 0px;
+        }
+      }
+      .bottomBox {
+        padding: 16px 24px 24px 46px;
+        font-size: 18px;
+      }
+    }
+  }
+}
